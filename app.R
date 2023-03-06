@@ -1,7 +1,7 @@
 library(tidyverse)
 library(shiny)
 library(plotly)
-setwd("/Users/baroncabudol/desktop/info201/ps/ps6")
+##setwd("/Users/baroncabudol/desktop/info201/ps/ps6")
 college <- read_delim("CollegesByState.csv")
 
 topprivate <- college %>% 
